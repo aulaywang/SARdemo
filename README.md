@@ -7,3 +7,4 @@
 **复现版本：Ubuntu16.04 + Cuda10.0 + cuDNN7.6.3 + PyTorch1.7.1 + python3.8**  
 查阅过的帖子：  
 [解决ImportError: cannot import name 'imread' from 'scipy.misc'](https://www.cnblogs.com/gkm0120/p/12925130.html)  
+本来想试一下COCO数据集的，不过看了[jwyang](https://github.com/jwyang/faster-rcnn.pytorch/tree/pytorch-1.0)的介绍，耗时是VOC的十倍，而且需要8块GPU，遂放弃。  
